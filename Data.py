@@ -14,3 +14,6 @@ def Cards(Normal):
             return random.choice(Wild)
         else:
             return random.choice(Special) + ' ' + random.choice(Color)
+        
+if __name__ == "__main__" :
+    print(Cards(True))
